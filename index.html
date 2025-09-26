@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sottolineature</title>
+    <link href="style.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="floating-elements" id="floatingElements"></div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>SOTTOLINEATO</h1>
+            <div class="subtitle">il succo dei libri</div>
+        </div>
+
+        <div class="button-container">
+            <button class="refresh-btn" onclick="mostraCitazione()" id="refreshBtn">
+                ✨ Nuova Sottolineatura
+            </button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+        </div>
+
+        <div class="quote-card" id="quoteCard">
+            <div class="quote-text" id="quoteText">
+                Tocca il pulsante sopra per scoprire una nuova sottolineatura
+            </div>
+            <div class="author" id="author"></div>
+            <div class="title" id="title"></div>
+            <div class="underliner" id="underliner"></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
