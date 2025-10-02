@@ -42,9 +42,17 @@ body {
   margin-bottom: 0.3rem;
   color: var(--accent-color);
   text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
-  margin-top: 10%;
+  margin-top: 3em;
 }
 
+.header h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+  color: var(--accent-color);
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+  margin-top: 3em;
+}
 .subtitle {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
