@@ -17,10 +17,11 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
   display: flex;
-  justify-content: center;
+  flex-direction: column;   /* invece di centrato */
   align-items: center;
+  justify-content: flex-start; /* parti dall'alto */
   min-height: 100vh;
-  overflow: hidden;
+  overflow-y: auto;         /* permette lo scroll */
 }
 
 /* Container fluido */
@@ -30,7 +31,8 @@ body {
   text-align: center;
   padding: 2rem;
   position: relative;
-  z-index: 10; /* sopra gli elementi fluttuanti */
+  z-index: 10;
+  margin-bottom: 3rem; /* aggiungi respiro in fondo */
 }
 
 /* Header */
@@ -40,6 +42,7 @@ body {
   margin-bottom: 0.3rem;
   color: var(--accent-color);
   text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+  margin-top: 10%;
 }
 
 .subtitle {
