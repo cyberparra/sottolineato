@@ -1,0 +1,24 @@
+{
+    "name": "Sottolineato",
+    "short_name": "S8L",
+    "description": "Il succo dei libri",
+    "start_url": "/idex.html",
+    "display": "standalone",
+    "background_color": "#f0f0f0",
+    "theme_color": "#4CAF50",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "logos8l.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "logos8l.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }

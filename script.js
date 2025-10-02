@@ -1,6 +1,8 @@
 let citazioni = [];
 let currentQuoteIndex = -1;
 
+
+
 // Carica i dati dal file JSON esterno
 async function caricaDati() {
     try {
@@ -21,11 +23,13 @@ async function caricaDati() {
     }
 }
 
+
+
 function createFloatingElements() {
     const container = document.getElementById('floatingElements');
     for (let i = 0; i < 20; i++) {
         const element = document.createElement('div');
-        element.className = 'floating-element';
+        element.className = 'floating-elements';
         element.style.left = Math.random() * 100 + '%';
         element.style.animationDelay = Math.random() * 15 + 's';
         element.style.animationDuration = (Math.random() * 10 + 10) + 's';
@@ -89,4 +93,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         const quoteCard = document.getElementById('quoteCard');
         quoteCard.classList.add('show');
     }
-});
+})
+
+;
+
